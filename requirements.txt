@@ -1,0 +1,12 @@
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-ollama>=0.2
+langchain-chroma>=0.1
+langchain-text-splitters>=0.3
+chromadb>=0.5
+pypdf>=4.0
+rank_bm25>=0.2.2
+gradio>=4.0
+
+# 可选：启用 bge-reranker 交叉编码器精排（体积较大，含 torch）
+# sentence-transformers>=2.7

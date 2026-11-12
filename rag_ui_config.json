@@ -1,0 +1,12 @@
+{
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "adaptive": false,
+  "top_k": 4,
+  "candidate_k": 12,
+  "bm25_weight": 0.4,
+  "vector_weight": 0.6,
+  "rrf_k": 20,
+  "rerank": "off",
+  "rerank_model": "qwen2.5:7b"
+}
