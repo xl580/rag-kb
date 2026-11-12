@@ -1,0 +1,30 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---------- 虚拟环境 ----------
+.venv/
+venv/
+env/
+.conda/
+
+# ---------- 向量库（体积 1MB+，且随机器不同，由 01_build_index.py 生成） ----------
+vectorstore/
+*.sqlite3
+
+# ---------- 本地历史存档 ----------
+backup/
+
+# ---------- 助手 / 编辑器 ----------
+.workbuddy/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---------- 日志 ----------
+*.log
